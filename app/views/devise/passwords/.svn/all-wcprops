@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/72/trunk/Code/bbook/app/views/devise/passwords
+END
+edit.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/72/trunk/Code/bbook/app/views/devise/passwords/edit.html.haml
+END
+new.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/72/trunk/Code/bbook/app/views/devise/passwords/new.html.haml
+END

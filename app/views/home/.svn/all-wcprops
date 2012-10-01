@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/55/trunk/Code/bbook/app/views/home
+END
+index.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/55/trunk/Code/bbook/app/views/home/index.html.haml
+END
+_home_content.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/53/trunk/Code/bbook/app/views/home/_home_content.html.haml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/trunk/Code/bbook/test/unit/helpers
+END
+as_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/32/trunk/Code/bbook/test/unit/helpers/as_helper_test.rb
+END
+mybooks_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/50/trunk/Code/bbook/test/unit/helpers/mybooks_helper_test.rb
+END
+homes_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/Code/bbook/test/unit/helpers/homes_helper_test.rb
+END

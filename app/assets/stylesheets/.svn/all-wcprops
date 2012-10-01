@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/69/trunk/Code/bbook/app/assets/stylesheets
+END
+application.css.scss
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/Code/bbook/app/assets/stylesheets/application.css.scss
+END
+mybooks.css.scss
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/50/trunk/Code/bbook/app/assets/stylesheets/mybooks.css.scss
+END
+scaffolds.css.scss
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/50/trunk/Code/bbook/app/assets/stylesheets/scaffolds.css.scss
+END
+home.css.scss
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/50/trunk/Code/bbook/app/assets/stylesheets/home.css.scss
+END
+homes.css.scss
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/Code/bbook/app/assets/stylesheets/homes.css.scss
+END
+bootstrap_and_overrides.css.less
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/69/trunk/Code/bbook/app/assets/stylesheets/bootstrap_and_overrides.css.less
+END

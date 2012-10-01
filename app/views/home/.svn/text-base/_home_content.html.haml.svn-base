@@ -1,0 +1,22 @@
+.span11.offset1 
+  .navbar.navbar-inner.main-menu-navs
+    %ul{:class => "nav pull-right"}
+      %li
+        = link_to "Books", "#"
+      %li{:class=> "divider-vertical"}
+      %li
+        = link_to "FAQ", "#"
+      %li{:class=> "divider-vertical"}
+      %li
+        = link_to "About Us", "#"
+    = form_tag "", :class => "navbar-search pull-left" do
+      = text_field_tag "", nil, :class => "search-query span3", :placeholder => "Book Search"
+.row
+  .span11.offset1
+    .container-fluid
+      .span3.box-model
+        a
+      .span3.box-model
+        b
+      .span4.box-model
+        new

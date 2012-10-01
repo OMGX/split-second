@@ -1,0 +1,19 @@
+.home-pictures-carousel.carousel.slide#home-pics
+  .carousel-inner
+    .active.item
+      = image_tag "pic1.jpg", :class => "img-rounded"
+    .item
+      = image_tag "pic3.jpg", :class => "img-rounded"
+    .item
+      = image_tag "pic2.jpg", :class => "img-rounded"
+    .item
+      = image_tag "pic4.jpg", :class => "img-rounded"  
+  = link_to "<", "#home-pics", :class => "carousel-control left", "data-slide"=> "prev"
+  = link_to ">", "#home-pics", :class => "carousel-control right", "data-slide"=> "next"
+= render('home_content')
+= javascript_tag do
+  :erb
+    $('.carousel').carousel({
+      interval: 2000000
+    });
+  

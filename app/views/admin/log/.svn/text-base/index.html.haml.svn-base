@@ -1,0 +1,5 @@
+.admin-task-content.row
+  .span11.offset1
+    = render 'admin/admin_task_navbar'
+    .admin-task-body.span7.box-model2
+      

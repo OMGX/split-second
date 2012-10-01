@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/50/trunk/Code/bbook/app/helpers
+END
+homes_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/32/trunk/Code/bbook/app/helpers/homes_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/Code/bbook/app/helpers/application_helper.rb
+END
+mybooks_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/50/trunk/Code/bbook/app/helpers/mybooks_helper.rb
+END

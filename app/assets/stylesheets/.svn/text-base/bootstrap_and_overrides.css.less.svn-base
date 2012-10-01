@@ -1,0 +1,137 @@
+@import "twitter/bootstrap/bootstrap";
+body { 
+	padding-top: 60px;
+}
+
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings.png');
+@iconWhiteSpritePath: asset-path('twitter/bootstrap/glyphicons-halflings-white.png');
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+// Note: If you use asset_path() here, your compiled boostrap_and_overrides.css will not 
+//       have the proper paths. So for now we use the absolute path.
+@fontAwesomeEotPath: '/assets/fontawesome-webfont.eot';
+@fontAwesomeWoffPath: '/assets/fontawesome-webfont.woff';
+@fontAwesomeTtfPath: '/assets/fontawesome-webfont.ttf';
+@fontAwesomeSvgPath: '/assets/fontawesome-webfont.svg';
+
+// Font Awesome
+@import "fontawesome";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/less.html for their names and documentation
+//
+// Example:
+// @linkColor: #ff0000;
+body{
+  padding: 5px 0 0 0;
+  background-image: url("background_.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+.logo{
+  img{
+    margin-top: -10px !important;
+  }
+}
+.content-page-tag{
+  padding-top: 45px;
+  min-height: 500px;
+}
+.home-pictures-carousel{
+  width: 77%;
+  padding:0 0 0 11%;
+  .carousel-inner{
+    margin-left:15%;
+    width: 70%;
+    .item{
+      img{
+        width:100%;
+      }
+    }
+  }
+  .carousel-control{
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 100px;
+    margin-top:3%;
+    margin-left: 13%;
+  }
+}
+.box-model{
+  border: 1px solid #D3C1C1;
+  border-radius: 5px;
+  min-height: 200px;
+  background-color: #FFFFFF;
+  /*box-shadow: 10px 10px 5px #6F6D6D;*/
+}
+.box-model2{
+  border: 1px solid #D3C1C1;
+  border-radius: 5px;
+  min-height: 430px;
+  background-color: #FFFFFF;
+  /*box-shadow: 10px 10px 5px #6F6D6D;*/
+}
+.footer{
+  background-color: #F5F5F5;
+  border-top: 3px solid #B5B5B5;
+  margin-top: 20px;
+  opacity: 0.75;
+  padding: 39px 0;
+}
+.home-pictures-background{
+  height:334px;
+  width :80%;
+  padding: 40px 0;
+}
+.main-content-page{
+  margin-left:10px;
+  min-height: 500px;
+}
+.home-content-tab{
+
+}
+.main-menu-navs{
+  box-shadow: 10px 10px 5px #6F6D6D;
+  width: 87%;
+  margin-left:2%;
+}
+#login-modal{
+  width: 30%;
+  left:90%;
+  top:49%;
+}
+.login-dialog-content{
+  margin-left: 15%;
+  width:62%;
+}
+.remember-me{
+  float:left;
+}
+.signup-content{
+  margin-left: 10%;
+  border: 1px solid #A39F9F;
+  box-shadow: 2px 1px 2px #B4A4A4;
+  .form-content{
+    margin-left:30%;
+  }
+}
+.nav-bar-edited{
+  li{
+    a{
+    padding-right: 5px !important;      
+    }
+  }
+}
+.notification{
+  margin-left: 12.5%;
+  width :50%;
+}

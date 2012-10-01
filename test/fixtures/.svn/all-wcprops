@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/trunk/Code/bbook/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/50/trunk/Code/bbook/test/fixtures/users.yml
+END
+as.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/32/trunk/Code/bbook/test/fixtures/as.yml
+END
+mybooks.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/trunk/Code/bbook/test/fixtures/mybooks.yml
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/32/trunk/Code/bbook/test/fixtures/.gitkeep
+END
+homes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/trunk/Code/bbook/test/fixtures/homes.yml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/73/trunk/Code/bbook/app/controllers/admin
+END
+user_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/73/trunk/Code/bbook/app/controllers/admin/user_controller.rb
+END
+log_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/69/trunk/Code/bbook/app/controllers/admin/log_controller.rb
+END
+new_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/73/trunk/Code/bbook/app/controllers/admin/new_controller.rb
+END

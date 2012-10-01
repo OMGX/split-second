@@ -1,0 +1,9 @@
+.span4.offset3{:style => "margin-top:3em;"}
+  %h2 Forgot your password?
+  = form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post, :class => "well" }) do |f|
+    .form-input
+      = f.label :email
+      = f.email_field :email, :required => true, :label => "Email Address"
+    .form-actions{:style => "padding-left:0;"}
+      = f.submit "Send me reset password instructions"
+  / = render "devise/shared/links"

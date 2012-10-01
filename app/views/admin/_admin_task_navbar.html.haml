@@ -1,0 +1,11 @@
+.span3.well
+  %ul{:class => "nav nav-list"}
+    %li{:class => "nav-header"}
+      Admin Task
+    %li{:class => "divider"}
+    %li{:class => "#{params["controller"] == "admin/log"? "active":""}"}
+      = link_to "View logs",admin_log_index_path
+    %li{:class => "#{params["controller"] == "admin/user"? "active":""}"}
+      = link_to "User",admin_user_index_path
+    %li{:class => "#{params["controller"] == "admin/new"? "active":""}"}
+      = link_to "News",admin_new_index_path

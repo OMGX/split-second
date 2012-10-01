@@ -1,0 +1,76 @@
+.span8.offset2
+  .signup-content
+    %h2{:style => "text-align: center"} Create account to get started with BBook
+    .form-content
+      = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+        = devise_error_messages!
+        .control-group#email
+          = f.label :email
+          = f.email_field :email, :autofocus => true, :placeholder => "Your email", :class => "span3"
+          #email-error.help-inline
+        .control-group#id
+          = f.label :ssn
+          = f.text_field :idcard,:id => "idcard-textfield", :placeholder => "Social security number", :class => "span3"
+          #idcard-error.help-inline
+        .control-group#pass
+          = f.label :password
+          = f.password_field :password, :class => "span3"
+          #password-error.help-inline
+        .control-group#passconfirm
+          = f.label :password_confirmation
+          = f.password_field :password_confirmation, :class => "span3"
+          #password-confirm-error.help-inline
+        .control-group
+          = f.submit "Sign up", :class => "btn btn-primary"
+      = render "devise/shared/links"
+= javascript_tag do
+  :erb 
+    $("#new_user").submit(function(){
+      if (!(($("#user_email").val() == "") || ($("#idcard-textfield").val() == "") || ($("#user_password").val() == "") || ($("#user_password").val() != $("#user_password_confirmation").val()) || ($("#user_password").val().length<6) ||  ($("#user_password").val().match(/[a-z]|[A-Z]|[0-9]/gi) == null) )){
+        return true;
+      }
+      else
+        if ($("#user_email").val() == ""){
+          $("#email").attr("class", "control-group error");
+          $("#email-error").html("Email can't be blank");
+        }
+        if ($("#idcard-textfield").val() == ""){
+          $("#id").attr("class", "control-group error");
+          $("#idcard-error").html("Id can't be blank");
+        }
+        if ($("#user_password").val() == "" || ($("#user_password").val().length <6)){
+          $("#pass").attr("class", "control-group error");
+          $("#password-error").html("At least 6 characters");
+        }
+        else{
+          if ($("#user_password").val().match(/[a-z]|[A-Z]|[0-9]/gi) == null){
+            $("#pass").attr("class", "control-group error");
+            $("#password-error").html("Can not contain special character");
+          }
+          else{
+            if ($("#user_password_confirmation").val() != $("#user_password").val()){
+              $("#passconfirm").attr("class", "control-group error");
+              $("#password-confirm-error").html("Doesn't match, please check");
+            }
+          }
+        }
+        return false;
+    });
+    $("#user_email").bind("keydown", function(){
+      $("#email").attr("class", "control-group");
+      $("#email-error").html("");
+    })
+    $("#idcard-textfield").bind("keydown", function(){
+      $("#id").attr("class", "control-group");
+      $("#idcard-error").html("");
+    })
+    $("#user_password").bind("keydown", function(){
+      $("#pass").attr("class", "control-group");
+      $("#password-error").html("");
+    })
+    $("#user_password_confirmation").bind("keydown", function(){
+      $("#passconfirm").attr("class", "control-group");
+      $("#password-confirm-error").html("");
+    })
+
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/50/trunk/Code/bbook/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/50/trunk/Code/bbook/test/unit/user_test.rb
+END
+a_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/32/trunk/Code/bbook/test/unit/a_test.rb
+END
+mybook_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/50/trunk/Code/bbook/test/unit/mybook_test.rb
+END
+.gitkeep
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/32/trunk/Code/bbook/test/unit/.gitkeep
+END
+home_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/32/trunk/Code/bbook/test/unit/home_test.rb
+END

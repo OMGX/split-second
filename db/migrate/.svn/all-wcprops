@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/50/trunk/Code/bbook/db/migrate
+END
+20120930082914_devise_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/50/trunk/Code/bbook/db/migrate/20120930082914_devise_create_users.rb
+END
+20120930141942_addidcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/50/trunk/Code/bbook/db/migrate/20120930141942_addidcard.rb
+END

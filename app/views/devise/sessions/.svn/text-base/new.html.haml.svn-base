@@ -1,0 +1,29 @@
+#login-modal.modal.fade.in
+  = form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => "sign_in form-horizontal"}) do |f|
+    .modal-header
+      Login
+    .modal-body.login-dialog-content
+      = f.label :email
+      = f.email_field :email, :required => false, :placeholder => "Enter email", :autofocus => true, :label => "Username", :label_html => {:class => "label_input"},:input_html=> {:class => "span2"}, :hint => 'Usually, your email address'
+      = f.label :password
+      = f.password_field :password, :required => false, :label_html =>{:class => "label_input"},:input_html=> {:class => "span2"}, :placeholder => "Enter password"
+      = f.check_box(:remember_me) if devise_mapping.rememberable?
+      = f.label "Remember me",:class => "remember-me"
+      - if devise_mapping.recoverable? && controller_name != 'passwords'
+        = link_to "Forgot your password?", new_password_path(resource_name),:class => "span2 forget"
+    .modal-footer  
+      = f.submit "Sign in", :class => "btn btn-danger submit"
+  / = render "devise/shared/links"
+.span8.offset1
+  .span4
+    = image_tag "library.jpg"
+  .span3
+    %h3
+      Welcome to BBook Library
+    %h4
+      Content to introduce website and advertise //TODO//
+  .span7  
+    %h1
+      If you don't have account aldready, just click Signup
+    %h2
+      It's very easy create a new account, it'free ^^

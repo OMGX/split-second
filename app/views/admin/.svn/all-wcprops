@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/73/trunk/Code/bbook/app/views/admin
+END
+_admin_task_navbar.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/73/trunk/Code/bbook/app/views/admin/_admin_task_navbar.html.haml
+END

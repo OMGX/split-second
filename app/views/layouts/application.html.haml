@@ -1,0 +1,23 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+  = stylesheet_link_tag "application", :media => "all"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+  %title 
+    BBooks
+  %body
+    .logo-header-bar.navbar.navbar-inverse.navbar-fixed-top
+      = render '/layouts/head_nav_bar'
+    .content-page-tag
+      - if flash[:alert]
+        .notification.alert.alert-info
+          %strong 
+            = flash[:alert]
+          %button{:class => "close", "data-dismiss" => "alert"}x
+      = yield()
+  %footer{:class => "footer"}
+    .footer-content.container
+      %p 
+        = link_to "Copyright 2012", "#"
+      %p Design by Tran Duy Khoa
