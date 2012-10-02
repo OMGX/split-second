@@ -1,7 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 33
-/svn/!svn/ver/73/trunk/Code/bbook
+/svn/!svn/ver/74/trunk/Code/bbook
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/65/trunk/Code/bbook/Gemfile
+END
+config.ru
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/32/trunk/Code/bbook/config.ru
 END
 Gemfile.lock
 K 25
@@ -32,16 +44,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 44
 /svn/!svn/ver/32/trunk/Code/bbook/.gitignore
-END
-Gemfile
-K 25
-svn:wc:ra_dav:version-url
-V 41
-/svn/!svn/ver/65/trunk/Code/bbook/Gemfile
-END
-config.ru
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/!svn/ver/32/trunk/Code/bbook/config.ru
 END

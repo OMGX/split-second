@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/svn/!svn/ver/73/trunk/Code/bbook/config
+/svn/!svn/ver/74/trunk/Code/bbook/config
 END
 routes.rb
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/73/trunk/Code/bbook/config/routes.rb
+/svn/!svn/ver/74/trunk/Code/bbook/config/routes.rb
 END
 database.yml
 K 25

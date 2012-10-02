@@ -1,7 +1,7 @@
 10
 
 dir
-73
+74
 https://splitsecond-ttcnpm-project.googlecode.com/svn/trunk/Code/bbook/app/views/admin
 https://splitsecond-ttcnpm-project.googlecode.com/svn
 
@@ -25,6 +25,9 @@ duykhoa12t@gmail.com
 
 
 7522b738-2bc0-db14-0b4d-c8e79dfeb1a2
+
+log
+dir
 
 _admin_task_navbar.html.haml
 file
@@ -64,8 +67,5 @@ new
 dir
 
 user
-dir
-
-log
 dir
 

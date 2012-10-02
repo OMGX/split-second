@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/!svn/ver/66/trunk/Code/bbook/app/views/devise/registrations
+/svn/!svn/ver/74/trunk/Code/bbook/app/views/devise/registrations
+END
+_user_register_step.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/48/trunk/Code/bbook/app/views/devise/registrations/_user_register_step.html.haml
 END
 edit.html.haml
 K 25
@@ -13,11 +19,5 @@ new.html.haml
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/66/trunk/Code/bbook/app/views/devise/registrations/new.html.haml
-END
-_user_register_step.html.haml
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/!svn/ver/48/trunk/Code/bbook/app/views/devise/registrations/_user_register_step.html.haml
+/svn/!svn/ver/74/trunk/Code/bbook/app/views/devise/registrations/new.html.haml
 END

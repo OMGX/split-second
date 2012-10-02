@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/svn/!svn/ver/60/trunk/Code/bbook/db
+/svn/!svn/ver/74/trunk/Code/bbook/db
 END
 schema.rb
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/!svn/ver/50/trunk/Code/bbook/db/schema.rb
+/svn/!svn/ver/74/trunk/Code/bbook/db/schema.rb
 END
 test.sqlite3
 K 25

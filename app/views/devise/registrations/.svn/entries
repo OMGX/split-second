@@ -1,14 +1,14 @@
 10
 
 dir
-73
+74
 https://splitsecond-ttcnpm-project.googlecode.com/svn/trunk/Code/bbook/app/views/devise/registrations
 https://splitsecond-ttcnpm-project.googlecode.com/svn
 
 
 
-2012-10-01T05:20:24.097197Z
-66
+2012-10-02T01:52:55.359522Z
+74
 toan.cse2818@gmail.com
 
 
@@ -26,50 +26,16 @@ toan.cse2818@gmail.com
 
 7522b738-2bc0-db14-0b4d-c8e79dfeb1a2
 
-edit.html.haml
-file
-
-
-
-
-2012-10-01T04:08:35.000000Z
-492e741496ecefce8bbee581c43b6a70
-2012-09-30T18:18:28.080708Z
-48
-duykhoa12t@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-801
-
 new.html.haml
 file
 
 
 
 
-2012-10-01T08:35:25.000000Z
-feced731fea4d5dfcf2c22d2e72a8512
-2012-10-01T05:20:24.097197Z
-66
+2012-10-02T03:19:47.000000Z
+3c38e94e5ef1d24c76a4c44c1ad79715
+2012-10-02T01:52:55.359522Z
+74
 toan.cse2818@gmail.com
 
 
@@ -92,7 +58,7 @@ toan.cse2818@gmail.com
 
 
 
-3269
+3265
 
 _user_register_step.html.haml
 file
@@ -127,4 +93,38 @@ duykhoa12t@gmail.com
 
 
 253
+
+edit.html.haml
+file
+
+
+
+
+2012-10-01T04:08:35.000000Z
+492e741496ecefce8bbee581c43b6a70
+2012-09-30T18:18:28.080708Z
+48
+duykhoa12t@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+801
 

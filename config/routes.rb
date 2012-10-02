@@ -1,4 +1,6 @@
 Bbook::Application.routes.draw do
+  resources :profiles
+
   #devise_for :users
 
   resources :mybook, :only =>[:index]

@@ -9,7 +9,7 @@
         = link_to "Signup", new_user_registration_path 
     - else
       %li
-        = link_to "Hi, #{current_user.email.split('@')[0]}!", "#"
+        = link_to "Hi, #{current_user.email.split('@')[0]}!", "#{current_user.profile ? edit_profile_path(current_user.profile) : new_profile_path}"
       %li
         = link_to "#" do
           %i{:class => "icon-envelope"}

@@ -1,7 +1,7 @@
 10
 
 dir
-73
+74
 https://splitsecond-ttcnpm-project.googlecode.com/svn/trunk/Code/bbook/app/views/devise/mailer
 https://splitsecond-ttcnpm-project.googlecode.com/svn
 
@@ -25,6 +25,40 @@ duykhoa12t@gmail.com
 
 
 7522b738-2bc0-db14-0b4d-c8e79dfeb1a2
+
+reset_password_instructions.html.haml
+file
+
+
+
+
+2012-10-01T04:08:35.000000Z
+b1da85c246be7c94c9eb627d171a6114
+2012-09-30T18:18:28.080708Z
+48
+duykhoa12t@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+393
 
 confirmation_instructions.html.haml
 file
@@ -93,38 +127,4 @@ duykhoa12t@gmail.com
 
 
 268
-
-reset_password_instructions.html.haml
-file
-
-
-
-
-2012-10-01T04:08:35.000000Z
-b1da85c246be7c94c9eb627d171a6114
-2012-09-30T18:18:28.080708Z
-48
-duykhoa12t@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-393
 
